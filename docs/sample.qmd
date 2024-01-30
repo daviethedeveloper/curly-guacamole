@@ -34,7 +34,7 @@ pd.set_option('display.max_columns', None)
 ## Data Loading 
 
 ```{python}
-data = pl.read_csv('/Users/daviedev/CSEW2024/BigData/WeatherData/sample.csv')
+data = pl.read_csv('sample.csv')
 df= data.to_pandas()
 ```
 
